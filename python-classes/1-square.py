@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-"""Defines a class Square."""
+"""Square module."""
 
 
 class Square:
-    """Represent a square."""
+    """Defines a square."""
 
     def __init__(self, size):
-        """Initialize a new Square.
-        
+        """Constructor.
+
         Args:
-            size (int): The size of the new square.
+            size: Length of a side of the square.
         """
         self.__size = size
