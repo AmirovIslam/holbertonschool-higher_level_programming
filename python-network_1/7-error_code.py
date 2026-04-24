@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Sends a request to a given URL and displays the response body, handling HTTP errors."""
+"""Sends a request to a URL and displays the response body or error."""
 import requests
 import sys
 
